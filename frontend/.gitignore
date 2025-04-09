@@ -1,0 +1,84 @@
+# ----------------------------
+# Node.js
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# ----------------------------
+# React Native
+# ----------------------------
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserdatad/
+
+# Metro, Babel
+babel.config.js
+metro.config.js
+
+# React Native packager
+.expo/
+.expo-shared/
+.expo/web-build/
+*.expo
+*.expo-shared
+
+# Watchman
+.watchmanconfig
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Testing
+coverage/
+jest-cache/
+jest-test-results.json
+
+# Android/Gradle
+android/.idea/
+android/.cxx/
+android/.settings/
+android/local.properties
+android/app/.cxx/
+*.keystore
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+.idea/
+
+# Misc
+*.bak
+*.orig
+*.patch
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.env
